@@ -1,0 +1,12 @@
+venv/
+.vscode
+#*.jpg
+static/
+*.pyc
+config.py
+client.py
+connection.py
+connect.py
+.idea
+db.py
+
