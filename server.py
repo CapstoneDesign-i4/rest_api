@@ -32,4 +32,4 @@ if __name__ == "__main__":
     model = torch.hub.load(
          "ultralytics/yolov5", "custom", path="last.pt", force_reload=True)
     model.eval()
-    app.run(host="0.0.0.0", port=5000)  # debug=True causes Restarting with stat
+    app.run(host="0.0.0.0", port=5000,debug=True)  # debug=True causes Restarting with stat
